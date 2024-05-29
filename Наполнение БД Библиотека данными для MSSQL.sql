@@ -1,3 +1,6 @@
+use reports
+go
+
 SET IDENTITY_INSERT [books] ON;
 INSERT INTO [books] ([b_id], [b_name], [b_year], [b_quantity])
 VALUES
